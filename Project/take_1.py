@@ -7,5 +7,5 @@ import os
 import sys
 
 # Importing the dataset
-dataset = pd.read_csv('star_classification.csv')
+dataset = pd.read_csv('./Project/star_classification.csv')
 print(dataset.info())
